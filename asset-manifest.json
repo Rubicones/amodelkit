@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Rubicones/amodelkit/static/css/main.3189b7fe.css",
-    "main.js": "/Rubicones/amodelkit/static/js/main.6c7daa6d.js",
-    "static/media/title-photo.jpg": "/Rubicones/amodelkit/static/media/title-photo.2be8ac2cea818a3214e6.jpg",
-    "index.html": "/Rubicones/amodelkit/index.html",
-    "main.3189b7fe.css.map": "/Rubicones/amodelkit/static/css/main.3189b7fe.css.map",
-    "main.6c7daa6d.js.map": "/Rubicones/amodelkit/static/js/main.6c7daa6d.js.map"
+    "main.css": "./static/css/main.9652e7ea.css",
+    "main.js": "./static/js/main.8ca60b22.js",
+    "static/media/title-photo.jpg": "./static/media/title-photo.2be8ac2cea818a3214e6.jpg",
+    "index.html": "./index.html",
+    "main.9652e7ea.css.map": "./static/css/main.9652e7ea.css.map",
+    "main.8ca60b22.js.map": "./static/js/main.8ca60b22.js.map"
   },
   "entrypoints": [
-    "static/css/main.3189b7fe.css",
-    "static/js/main.6c7daa6d.js"
+    "static/css/main.9652e7ea.css",
+    "static/js/main.8ca60b22.js"
   ]
 }
