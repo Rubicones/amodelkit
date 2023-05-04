@@ -1,0 +1,32 @@
+.rows_choose{
+    width: 45vw;
+}
+
+#rangeRows::-webkit-slider-thumb {
+    background: #ffffff;
+}
+
+.rows_choose label{
+    margin-top: 2vw;
+}
+
+
+
+.counter{
+    font-size: 2vw;
+    color: white;
+
+}
+
+.inputCont{
+    display: flex;
+    align-items: center;
+}
+
+.max{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.7vw;
+
+}
