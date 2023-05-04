@@ -1,7 +1,7 @@
 import "./App.css";
 import "./App.sass";
 import Title from "../title/Title";
-// import Skills from "../skills/Skills";
+import Skills from "../skills/Skills";
 import Projects from "../projects/Projects";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -17,7 +17,7 @@ function App() {
                 </header>
 
                 <Title />
-                {/* <Skills/> */}
+                <Skills/>
                 <Projects/>
                 <footer>
                     <FontAwesomeIcon

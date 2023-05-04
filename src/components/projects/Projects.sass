@@ -1,7 +1,10 @@
 
 .projects-container
-
+    width: 80%
+    height: 60vh
     transform: translateY(20vh)
+    margin-left: auto
+    margin-right: auto
 
 .title
     display: block
@@ -12,25 +15,27 @@
     color: white
     margin-bottom: 5vh 
 
+.carousel-container
+    margin-top: 10vh     
 
-
-.carousel
+.video-container
     display: flex
-    flex-direction: row
+    flex-direction: column
+    justify-content: center
     align-items: center
 
-.carousel-inner
-    display: flex
-    flex-direction: row
-    justify-content: center
+.video-title
+    display: block
+    font-family: 'Poppins', sans-serif
+    width: 100%
+    text-align: center
+    color: white
+    font-size: 2vw
+    font-weight: 200
+    z-index: 100
 
-.carousel-inner > *
-    width: 30vw        
+iframe
+    width: 30vw
     height: 20vw
-    &:first-child
-        margin-right: 5vw 
-
-.carousel-control-next, .carousel-control-prev
-    position: relative
 
     
