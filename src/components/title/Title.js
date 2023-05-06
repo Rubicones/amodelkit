@@ -1,6 +1,7 @@
 import "./Title.sass";
-import titlePhoto from '../../resourses/title-photo.jpg'
-const Title = () => {
+import titlePhoto from "../../resourses/title-photo.jpg";
+const Title = ({toScroll}) => {
+
     return (
         <>
             <div className="screen">
@@ -15,10 +16,9 @@ const Title = () => {
                         commercial and art projects, and I'm experienced in
                         both.
                     </div>
-                    <button className="get-in-touch-btn">Get in touch</button>
+                    <button className="get-in-touch-btn" onClick={toScroll}>Get in touch</button>
                 </section>
-                <img className="title-image" src={titlePhoto} alt="me"/>
-
+                <img className="title-image" src={titlePhoto} alt="me" />
             </div>
         </>
     );

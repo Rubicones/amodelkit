@@ -1,0 +1,115 @@
+$red: #eb4a4a
+
+.form-container
+    width: 95%
+    height: 60vh
+    transform: translateY(12vh)
+    margin-left: auto
+    margin-right: auto
+
+.title
+    display: block
+    font-family: 'Poppins', sans-serif
+    width: 100%
+    text-align: center
+    font-size: 5vw
+    color: white
+
+.contacts-container
+    display: flex
+    flex-direction: column
+    width: 50%
+    height: 100%
+    padding-top: 5% 
+    align-content: center
+    margin: 0
+
+.inputs-container
+    padding-top: 5%
+    width: 50%
+
+.light-text
+        color: white
+        font-size: 2vw
+        font-weight: 300
+        padding-left: 1vw 
+
+.initials-container
+    display: flex
+    flex-direction: row
+    height: 5vh
+    align-items: center
+   
+
+.fasIcon
+    height: 50%
+
+.blocks-container
+    display: flex
+    flex-direction: row
+
+#name
+    padding-left: 2.5vw
+
+.name-surname, .email
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+    width: 100%
+    margin-bottom: 5vh   
+
+.email
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+    width: 50%
+    margin-bottom: 5vh   
+
+.message
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+    width: 100%
+    margin-bottom: 5vh
+    
+#first-name, #last-name, #email
+    width: 22vw
+    height: 5vh
+
+#message
+    width: 46vw
+    height: 10vh
+    font-size: 1vw
+
+input, textarea
+    background-color: #11111100 
+    border: 0
+    transition: border-bottom 1s
+    border-bottom: 1px solid white
+    color: white
+    &:focus
+        outline: none
+
+label
+    color: white
+    &[for="message"]
+        margin-bottom: 2vh
+    font-size: 1vw
+
+.group
+    display: flex
+    flex-direction: column
+
+.submit-btn
+    font-family: 'Poppins', sans-serif
+    width: 10vw
+    height: 2.5vw
+    background-color: $red
+    border: 0
+    color: white
+    font-size: 1vw
+    font-weight: 300
+    cursor: pointer
+    border-radius: 0.1vw
+    transform: translateX(36.7vw)
+    transition: background-color 1s

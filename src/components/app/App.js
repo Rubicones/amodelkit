@@ -4,12 +4,20 @@ import Title from "../title/Title";
 import Skills from "../skills/Skills";
 import Projects from "../projects/Projects";
 import Music from "../music/Music";
+import Form from "../form/Form";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
+import { useState } from "react";
 
 function App() {
     library.add(fab);
+
+    const [callScroll, setCallScroll] = useState(false)
+
+    const onScroll = () => {
+        setCallScroll(true)
+    }
 
     const footerIconClick = (destination) => {
         switch (destination) {
@@ -31,14 +39,11 @@ function App() {
     return (
         <>
             <div className="scrollContainer">
-                <header>
-                    <button className="contact-me">Contact me</button>
-                </header>
-
-                <Title />
+                <Title toScroll={onScroll}/>
                 <Skills />
                 <Projects />
                 <Music />
+                <Form scrollHere={callScroll} scrolled={setCallScroll}/>
                 <footer>
                     <FontAwesomeIcon
                         icon="fa-brands fa-soundcloud"
