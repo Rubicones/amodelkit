@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.bc5ba3fe.css",
-    "main.js": "./static/js/main.e26b07de.js",
+    "main.css": "./static/css/main.6f45de34.css",
+    "main.js": "./static/js/main.dd47cc74.js",
     "static/media/skills-photo.jpg": "./static/media/skills-photo.06460d46a838e13af272.jpg",
     "static/media/title-photo.jpg": "./static/media/title-photo.2be8ac2cea818a3214e6.jpg",
     "index.html": "./index.html",
-    "main.bc5ba3fe.css.map": "./static/css/main.bc5ba3fe.css.map",
-    "main.e26b07de.js.map": "./static/js/main.e26b07de.js.map"
+    "main.6f45de34.css.map": "./static/css/main.6f45de34.css.map",
+    "main.dd47cc74.js.map": "./static/js/main.dd47cc74.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc5ba3fe.css",
-    "static/js/main.e26b07de.js"
+    "static/css/main.6f45de34.css",
+    "static/js/main.dd47cc74.js"
   ]
 }
