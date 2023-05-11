@@ -5,6 +5,7 @@ import Skills from "../skills/Skills";
 import Projects from "../projects/Projects";
 import Music from "../music/Music";
 import Form from "../form/Form";
+import Games from "../games/Games";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -13,37 +14,40 @@ import { useState } from "react";
 function App() {
     library.add(fab);
 
-    const [callScroll, setCallScroll] = useState(false)
+    const [callScroll, setCallScroll] = useState(false);
 
     const onScroll = () => {
-        setCallScroll(true)
-    }
+        setCallScroll(true);
+    };
 
     const footerIconClick = (destination) => {
         switch (destination) {
             default:
                 break;
             case "soundcloud":
-                window.open('https://soundcloud.com/amodelkit');
-                break
+                window.open("https://soundcloud.com/amodelkit");
+                break;
             case "youtube":
-                window.open('https://www.youtube.com/@amodelkit')
-                break
+                window.open("https://www.youtube.com/@amodelkit");
+                break;
             case "instagram":
-                window.open('https://instagram.com/a_model_kit?igshid=YmMyMTA2M2Y=')
-                break
-
+                window.open(
+                    "https://instagram.com/a_model_kit?igshid=YmMyMTA2M2Y="
+                );
+                break;
         }
     };
 
     return (
         <>
             <div className="scrollContainer">
-                <Title toScroll={onScroll}/>
+                <Title toScroll={onScroll} />
                 <Skills />
                 <Projects />
                 <Music />
-                <Form scrollHere={callScroll} scrolled={setCallScroll}/>
+                <Games/>
+                <Form scrollHere={callScroll} scrolled={setCallScroll} />
+
                 <footer>
                     <FontAwesomeIcon
                         icon="fa-brands fa-soundcloud"

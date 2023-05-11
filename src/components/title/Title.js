@@ -7,8 +7,8 @@ const Title = ({toScroll}) => {
             <div className="screen">
                 <section className="greetings-container">
                     <div className="light-text">Hey there,</div>
-                    <div className="medium-text">I'm Maxim Popov</div>
-                    <div className="light-red-text">SOUND FOR VIDEO GAMES</div>
+                    <h1 className="medium-text">I'm Maxim Popov</h1>
+                    <h2 className="light-red-text">SOUND FOR VIDEO GAMES</h2>
                     <div className="description-text">
                         Being an artist myself, I'm always fully involved into
                         every aspect of music and audio production. Tailor-made

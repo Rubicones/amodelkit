@@ -1,10 +1,13 @@
 
 .projects-container
     width: 80%
-    height: 60vh
-    transform: translateY(15vh)
+    height: 50vh
+    transform: translateY(15%)
     margin-left: auto
     margin-right: auto
+
+.splide, ,.splide__track
+    height: 100%
 
 .projects-container .title
     display: block
@@ -38,4 +41,20 @@
     width: 30vw
     height: 20vw
 
-    
+@media screen and (orientation:portrait)
+    .projects-container
+        width: 80%
+        height: 70vh
+        transform: translateY(5%)
+        margin-left: auto
+        margin-right: auto
+
+
+    .projects-container .title
+        display: block
+        font-family: 'Poppins', sans-serif
+        width: 100%
+        text-align: center
+        font-size: 6vw
+        color: white
+        margin-bottom: 5vh 

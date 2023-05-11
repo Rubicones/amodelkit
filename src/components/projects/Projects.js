@@ -3,29 +3,39 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 
 const Projects = () => {
+    const query = `(max-width: 1200px)`;
     return (
         <>
             <div className="projects screen">
                 <div className="projects-container">
                     <span className="title">PROJECTS AND WORKS</span>
                     <div className="carousel-container">
+
                         <Splide
                             aria-label="projects"
-                            options={{
+                            options={ window.matchMedia("(orientation: portrait)").matches ? {
+                                rewind: true,
+                                direction: 'ttb',
+                                height   : '60vh',
+                                perPage: 2,
+                                autoHeight: true,
+                                pagination: false,
+                            } : {
                                 rewind: true,
                                 perPage: 2,
                                 pagination: false,
-                                fixedHeight: "25vw"
+                                fixedHeight: "100%",
                             }}
                         >
                             <SplideSlide>
                                 <div className="video-container">
                                     <div className="video-title">
-                                        Video Title
+                                    UNITY + WWISE. TECHNICAL SOUND DESIGN
                                     </div>
                                     <iframe
                                         className="carousel-video"
                                         title="First vid"
+                                        loading="lazy"
                                         src="https://www.youtube.com/embed/KUmbqmxFbLI"
                                     />
                                 </div>
@@ -33,11 +43,12 @@ const Projects = () => {
                             <SplideSlide>
                                 <div className="video-container">
                                     <span className="video-title">
-                                        Video Title
+                                        Videogame Sound Design
                                     </span>
                                     <iframe
                                         className="carousel-video"
                                         title="First vid"
+                                        loading="lazy"
                                         src="https://www.youtube.com/embed/5w0ns_gf5ww"
                                     />
                                 </div>
@@ -45,13 +56,12 @@ const Projects = () => {
                             <SplideSlide>
                                 <div className="video-container">
                                     <span className="video-title">
-                                        Video Title
+                                        Rickroll hehehe
                                     </span>
                                     <iframe
                                         className="carousel-video"
                                         title="First vid"
-                                        width="420"
-                                        height="315"
+                                        loading="lazy"
                                         src="https://www.youtube.com/embed/dQw4w9WgXcQ"
                                     />
                                 </div>

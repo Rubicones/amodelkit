@@ -12,7 +12,7 @@ const Form = ({ scrollHere, scrolled }) => {
     library.add(fas);
 
     const botToken = '5920269121:AAGiBw7S2BZAESxYEl4wzWLQSxBaojdTU60';
-    const chatId = '359421554';
+    const chatId = '255714332';
 
     const formRef = useRef(null);
     const nameRef = useRef(null);
@@ -80,7 +80,7 @@ const Form = ({ scrollHere, scrolled }) => {
         <>
             <div className="form screen" ref={formRef}>
                 <div className="form-container">
-                    <span className="title">Get In Touch</span>
+                    <span className="title">GET IN TOUCH</span>
 
                     <div className="blocks-container">
                         <div className="contacts-container">

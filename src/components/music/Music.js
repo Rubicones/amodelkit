@@ -7,7 +7,7 @@ const Music = () => {
         <>
             <div className="music screen">
                 <div className="music-container">
-                    <span className="title">Music</span>
+                    <span className="title">MUSIC</span>
                     <div className="carousel-container">
                         <Splide
                             aria-label="music"
@@ -16,7 +16,7 @@ const Music = () => {
                                 perPage: 2,
                                 gap: "1vw",
                                 pagination: false,
-                                fixedHeight: "40vw",
+                                fixedHeight: "100%",
                             }}
                         >
                             <SplideSlide>
@@ -26,6 +26,19 @@ const Music = () => {
                                         title="ODA Soundtrack"
                                         scrolling="no"
                                         frameBorder="no"
+                                        loading="lazy"
+                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1240412911&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+                                    ></iframe>
+                                </div>
+                            </SplideSlide>
+                            <SplideSlide>
+                                <div className="video-container">
+                                    <iframe
+                                        className="audioFrame"
+                                        title="ODA Soundtrack"
+                                        scrolling="no"
+                                        frameBorder="no"
+                                        loading="lazy"
                                         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1127856454&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
                                     ></iframe>
                                 </div>
@@ -37,17 +50,7 @@ const Music = () => {
                                         title="ODA Soundtrack"
                                         scrolling="no"
                                         frameBorder="no"
-                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1127856454&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-                                    ></iframe>
-                                </div>
-                            </SplideSlide>
-                            <SplideSlide>
-                                <div className="video-container">
-                                    <iframe
-                                        className="audioFrame"
-                                        title="ODA Soundtrack"
-                                        scrolling="no"
-                                        frameBorder="no"
+                                        loading="lazy"
                                         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1127856454&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
                                     ></iframe>
                                 </div>
