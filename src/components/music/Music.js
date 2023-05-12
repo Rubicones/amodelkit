@@ -27,19 +27,7 @@ const Music = () => {
                                         scrolling="no"
                                         frameBorder="no"
                                         loading="lazy"
-                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1240412911&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-                                    ></iframe>
-                                </div>
-                            </SplideSlide>
-                            <SplideSlide>
-                                <div className="video-container">
-                                    <iframe
-                                        className="audioFrame"
-                                        title="ODA Soundtrack"
-                                        scrolling="no"
-                                        frameBorder="no"
-                                        loading="lazy"
-                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1127856454&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1618219006&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
                                     ></iframe>
                                 </div>
                             </SplideSlide>

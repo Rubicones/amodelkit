@@ -3,7 +3,6 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 
 const Projects = () => {
-    const query = `(max-width: 1200px)`;
     return (
         <>
             <div className="projects screen">
@@ -30,39 +29,52 @@ const Projects = () => {
                             <SplideSlide>
                                 <div className="video-container">
                                     <div className="video-title">
-                                    UNITY + WWISE. TECHNICAL SOUND DESIGN
+                                    SHOWREEL 2023
                                     </div>
                                     <iframe
                                         className="carousel-video"
                                         title="First vid"
                                         loading="lazy"
-                                        src="https://www.youtube.com/embed/KUmbqmxFbLI"
+                                        src="https://www.youtube.com/embed/OYivSg65fHM"
                                     />
                                 </div>
                             </SplideSlide>
                             <SplideSlide>
                                 <div className="video-container">
                                     <span className="video-title">
-                                        Videogame Sound Design
+                                    UNITY + WWISE. TECHNICAL SOUND DESIGN
+                                    </span>
+                                    <iframe
+                                        className="carousel-video"
+                                        title="First vid"
+                                        loading="lazy"
+                                        src="https://www.youtube.com/embed/7Bace3dVEDE"
+                                    />
+                                </div>
+                            </SplideSlide>
+                            <SplideSlide>
+                                <div className="video-container">
+                                    <span className="video-title">
+                                        NO SAMPLES SOUND DESIGN
+                                    </span>
+                                    <iframe
+                                        className="carousel-video"
+                                        title="First vid"
+                                        loading="lazy"
+                                        src="https://www.youtube.com/embed/8I1rM5TP_VI"
+                                    />
+                                </div>
+                            </SplideSlide>
+                            <SplideSlide>
+                                <div className="video-container">
+                                    <span className="video-title">
+                                        VIDEO GAME SOUND DESIGN
                                     </span>
                                     <iframe
                                         className="carousel-video"
                                         title="First vid"
                                         loading="lazy"
                                         src="https://www.youtube.com/embed/5w0ns_gf5ww"
-                                    />
-                                </div>
-                            </SplideSlide>
-                            <SplideSlide>
-                                <div className="video-container">
-                                    <span className="video-title">
-                                        Rickroll hehehe
-                                    </span>
-                                    <iframe
-                                        className="carousel-video"
-                                        title="First vid"
-                                        loading="lazy"
-                                        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
                                     />
                                 </div>
                             </SplideSlide>

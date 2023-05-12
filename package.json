@@ -1,7 +1,7 @@
 {
   "name": "model-kit-project",
   "version": "0.1.0",
-  "homepage": "https://rubicones.github.io/amodelkit",
+  "homepage": "https://popov-sound.com/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",

@@ -5,7 +5,7 @@ $red: #eb4a4a
     
 
 .form-container
-    width: 95%
+    width: 85%
     height: 60vh
     transform: translateY(12vh)
     margin-left: auto
@@ -30,7 +30,7 @@ $red: #eb4a4a
 
 .inputs-container
     padding-top: 5%
-    width: 50%
+    width: 65%
 
 .contacts-container .light-text
         color: white
@@ -117,3 +117,12 @@ label
     border-radius: 0.1vw
     transform: translateX(36.7vw)
     transition: background-color 1s
+
+@media (min-aspect-ratio: 7/4) 
+    .contacts-container, .inputs-container
+        padding-top: 2% 
+    
+    .form-container
+        width: 85%
+        height: 60vh
+        transform: translateY(8vh)

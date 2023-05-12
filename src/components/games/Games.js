@@ -22,7 +22,7 @@ const Games = () => {
                             <div className="medium-text">Oda</div>
                             <div className="light-text">Genre: Puzzle</div>
                             <div className="light-text">Role: Technical Sound Designer, Music Composer</div>
-                            <a href="https://jacobstaffordmusic.itch.io/noire" rel="noreferrer" className="game-link light-text" target="_blank">Link</a>
+                            <a href="https://store.steampowered.com/app/1142240/ODA/" rel="noreferrer" className="game-link light-text" target="_blank">Link</a>
                         </div>
                     </div>
                 </div>
