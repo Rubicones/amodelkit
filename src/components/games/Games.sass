@@ -58,17 +58,24 @@
 
 @media (min-aspect-ratio: 7/4) 
     .game
-        display: flex
-        flex-direction: row
-        width: 80%
+        display: grid
+        // flex-direction: row
+        grid-template-columns: 10vw 7.5vw 7.5vw 20vw 5vw 
+
+        width: 57vw
         gap: 3vh
-        height: 20vh
+        // height: 20vh
         padding: 1% 1% 1% 1%
         border: 2px solid #ffffff51
+        // box-sizing: border-box
+        > *
+            margin-top: auto
+            margin-bottom: auto
+            text-align: center
     
     .poster
         display: block
-        max-width: 45%
+        max-width: 100%
         max-height: 100%
 
     .inner-container
@@ -85,5 +92,12 @@
             display: flex
             flex-direction: column
             justify-content: flex-start
+        .light-text
+            font-size: 1vw
+        .medium-text
+            font-size: 2vw
 
 
+@media screen and (max-height: 800px) and (min-aspect-ratio: 7/4) 
+    .games-container
+            transform: translateY(3vh)
