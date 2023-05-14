@@ -14,16 +14,18 @@ const Projects = () => {
                             aria-label="projects"
                             options={ window.matchMedia("(orientation: portrait)").matches ? {
                                 rewind: true,
-                                direction: 'ttb',
-                                height   : '60vh',
-                                perPage: 2,
-                                autoHeight: true,
+                                perPage: 1,
                                 pagination: false,
+                                height: "42.5vh",
+                                classes: {
+                                    arrows: 'splide__arrows carousel_arrows',
+                              },
                             } : {
                                 rewind: true,
                                 perPage: 2,
                                 pagination: false,
-                                fixedHeight: "100%",
+                                height: "50vh",
+
                             }}
                         >
                             <SplideSlide>

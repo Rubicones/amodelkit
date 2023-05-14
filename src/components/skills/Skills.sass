@@ -33,3 +33,43 @@ li
 
 .apps
     margin-left: 10vw
+
+
+@media screen and (orientation:portrait)
+    .heading
+        display: block
+        color: white
+        font-size: 10vw
+        width: 80%
+        margin-left: auto
+        margin-right: auto
+        text-align: center
+        font-weight: 400
+        padding-top: 5vh
+        transform: translateY(0)
+        padding-left: 0
+
+    .skills-container
+        display: flex
+        flex-direction: column
+        align-content: flex-end
+        width: 35%
+        float: right
+        transform: translateY(5vh)
+
+    .apps, .skills-list
+        margin-left: 0
+        padding: 0
+    
+    li
+        color: white
+        font-size: 2vh
+        font-weight: 400
+
+    .skills-image
+        position: absolute
+        top: 20%
+        z-index: -1
+        object-fit: contain
+        scale: 2.5
+        height: 70vh

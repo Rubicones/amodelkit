@@ -1,11 +1,14 @@
 import "./Skills.sass";
 import skillsPhoto from "../../resourses/skills-photo.jpg";
 const Skills = () => {
+    let orientation = window.matchMedia("(orientation: portrait)");
+
     return (
         <>
             <div className="screen">
+            {orientation.matches ? <span className="heading">Skills & Abilities</span> : ""}
                 <section className="skills-container">
-                    <span className="heading">Skills & Abilities</span>
+                    {!orientation.matches ? <span className="heading">Skills & Abilities</span> : ""}
                     <ul className="apps">
                         <li className="app">Ableton Live</li>
                         <li className="app">Wwise</li>

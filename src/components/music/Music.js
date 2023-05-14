@@ -8,10 +8,18 @@ const Music = () => {
             <div className="music screen">
                 <div className="music-container">
                     <span className="title">MUSIC</span>
-                    <div className="carousel-container">
+                    <div className="music-carousel-container">
                         <Splide
                             aria-label="music"
-                            options={{
+                            options={ window.matchMedia("(orientation: portrait)").matches ? {
+                                rewind: true,
+                                perPage: 1,
+                                pagination: false,
+                                height: "40vh",
+                                classes: {
+                                    arrows: 'splide__arrows carousel_arrows',
+                              },
+                            } : {
                                 rewind: true,
                                 perPage: 2,
                                 gap: "1vw",
@@ -20,7 +28,7 @@ const Music = () => {
                             }}
                         >
                             <SplideSlide>
-                                <div className="video-container">
+                                <div className="sc-container">
                                     <iframe
                                         className="audioFrame"
                                         title="ODA Soundtrack"
@@ -32,7 +40,7 @@ const Music = () => {
                                 </div>
                             </SplideSlide>
                             <SplideSlide>
-                                <div className="video-container">
+                                <div className="sc-container">
                                     <iframe
                                         className="audioFrame"
                                         title="ODA Soundtrack"
