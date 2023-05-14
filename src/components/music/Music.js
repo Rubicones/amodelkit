@@ -15,10 +15,7 @@ const Music = () => {
                                 rewind: true,
                                 perPage: 1,
                                 pagination: false,
-                                height: "40vh",
-                                classes: {
-                                    arrows: 'splide__arrows carousel_arrows',
-                              },
+                                fixedHeight: "100%",
                             } : {
                                 rewind: true,
                                 perPage: 2,
