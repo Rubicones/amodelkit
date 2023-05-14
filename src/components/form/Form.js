@@ -131,9 +131,15 @@ const Form = ({ scrollHere, scrolled }) => {
                                     <textarea type="text" id="message" name="message" ref={messageRef}/>
                                 </div>
                             </div>
-                            <button type="submit" className="submit-btn" ref={submitBtn} onClick={validateForm}>Submit</button>
+                            {!window.matchMedia("(orientation: portrait)").matches ? 
+                        <button type="submit" className="submit-btn" ref={submitBtn} onClick={validateForm}>Submit</button> :
+                        ""}
                         </div>
+                        {window.matchMedia("(orientation: portrait)").matches ? 
+                        <button type="submit" className="submit-btn" ref={submitBtn} onClick={validateForm}>Submit</button> :
+                        ""}
                     </div>
+                    
                 </div>
             </div>
         </>

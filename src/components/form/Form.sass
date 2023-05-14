@@ -4,6 +4,13 @@ $red: #eb4a4a
     scroll-behavior: smooth
     
 
+.title
+    display: block
+    font-family: 'Poppins', sans-serif
+    width: 100%
+    text-align: center
+    color: white
+    
 .form-container
     width: 85%
     height: 60vh
@@ -11,13 +18,14 @@ $red: #eb4a4a
     margin-left: auto
     margin-right: auto
 
-.title
-    display: block
-    font-family: 'Poppins', sans-serif
-    width: 100%
-    text-align: center
-    font-size: 5vw
-    color: white
+.form-container
+    .title
+        display: block
+        font-family: 'Poppins', sans-serif
+        width: 100%
+        text-align: center
+        font-size: 5vw
+        color: white
 
 .contacts-container
     display: flex
@@ -53,6 +61,7 @@ $red: #eb4a4a
     flex-direction: row
 
 #name
+    line-height: 5vh
     padding-left: 2.5vw
 
 .name-surname, .email
@@ -129,3 +138,64 @@ label
 @media screen and (max-height: 800px) and (min-aspect-ratio: 7/4) 
     .form-container
             transform: translateY(3vh)
+
+@media screen and (orientation:portrait) 
+    .form-container
+        transform: translateY(3vh) 
+        width: 95%
+        .title
+            font-size: 5vh  
+
+    .blocks-container
+        display: flex
+        flex-direction: column
+        align-items: center
+        
+    .contacts-container
+        >*
+            text-align: center
+            justify-content: center
+
+    .inputs-container
+        width: 75%
+        > *
+            flex-direction: column
+            justify-content: center
+
+    .group input, textarea
+        width: 100%
+
+    #first-name, #last-name, #email, #message
+        width: 100%
+        margin-bottom: 2vh
+        height: 4vh
+        font-size: 2vh
+
+    #message
+        margin-bottom: 0
+        height: 5vh
+        
+
+    .email
+        all: unset
+
+    label
+        font-size: 1.3vh
+
+    .name-surname
+        margin-bottom: 0
+
+    .submit-btn
+        transform: translateX(0)
+        transition: background-color 1s
+        font-family: 'Poppins', sans-serif
+        width: 25vw
+        height: 8vw
+        background-color: $red
+        border: 0
+        color: white
+        font-size: 3vw
+        font-weight: 300
+        cursor: pointer
+        border-radius: 0.2vw
+        text-align: center

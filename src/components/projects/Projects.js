@@ -24,7 +24,7 @@ const Projects = () => {
                                 rewind: true,
                                 perPage: 2,
                                 pagination: false,
-                                fixedHeight: "100%",
+                                height: "100%",
 
                             }}
                         >
