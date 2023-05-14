@@ -18,14 +18,14 @@ const Skills = () => {
                         <li className="app">Adobe Audition</li>
                     </ul>
                     <ul className="skills-list">
-                        <li className="skill">Sound design</li>
+                        <li className="skill">Sound Design</li>
                         <li className="skill">Game Audio</li>
-                        <li className="skill">Foley Reckording</li>
+                        <li className="skill">Foley Recording</li>
                         <li className="skill">SFX</li>
                         <li className="skill">Audio Editing</li>
                         <li className="skill">Music composition</li>
                         <li className="skill">
-                            Tecnical sound design and <br/>implementation
+                            Tecnical sound Design and <br/>implementation
                         </li>
                         <li className="skill">C#</li>
                     </ul>
